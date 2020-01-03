@@ -1,0 +1,17 @@
+div.css-1rn63cm {
+  background: #000 !important;
+  color: #fff;
+}
+
+div.css-7bonvz {
+  background: #070707 !important;
+  color: #fff;
+}
+
+div.css-7bonvz div,
+div.css-7bonvz a,
+div.css-7bonvz p,
+div.css-7bonvz span:not([role="img"]) {
+  background: #070707 !important;
+  color: #fff;
+}

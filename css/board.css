@@ -1,0 +1,6 @@
+div#jira-board div.sc-cSHVUG.CAuLq div,
+div#jira-board div.sc-cSHVUG.CAuLq p,
+div#jira-board div.sc-cSHVUG.CAuLq span:not([role="img"]),
+div#jira-board div.sc-cSHVUG.CAuLq section {
+  background: #070707 !important;
+}

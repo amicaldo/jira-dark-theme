@@ -1,0 +1,63 @@
+body, html {
+  background: #111 !important;
+}
+
+html body div#jira-frontend {
+  background: #111 !important;
+}
+
+div#content {
+  background: #111 !important;
+  color: #fff !important;
+}
+
+div#content div:not(.image):not(.overlay):not(.ellipsed-text):not(.top-row):not(.title),
+div#content section,
+div#content header,
+div#content p,
+div#content a,
+div#content li,
+div#content span:not([role="img"]),
+div#content h1,
+div#content h2,
+div#content h3,
+div#content h4,
+div#content h5,
+div#content h6,
+div#content button {
+  background: #111 !important;
+  color: #fff !important;
+}
+
+div[data-testid="Content"] {
+  background: #111 !important;
+  color: #fff !important;
+}
+
+div[data-testid="Content"] div:not(.image):not(.overlay):not(.ellipsed-text):not(.top-row):not(.title),
+div[data-testid="Content"] section,
+div[data-testid="Content"] header,
+div[data-testid="Content"] p,
+div[data-testid="Content"] a,
+div[data-testid="Content"] li,
+div[data-testid="Content"] span:not([role="img"]),
+div[data-testid="Content"] h1,
+div[data-testid="Content"] h2,
+div[data-testid="Content"] h3,
+div[data-testid="Content"] h4,
+div[data-testid="Content"] h5,
+div[data-testid="Content"] h6,
+div[data-testid="Content"] a,
+div[data-testid="Content"] button {
+  background: #111 !important;
+  color: #fff !important;
+}
+
+/**
+ * Weird blue button background
+ */
+div[data-testid="Content"] div button.css-1onaru6:not(:active),
+div[data-testid="Content"] div button.css-1onaru6:hover:not(.active),
+div[data-testid="Content"] div .css-1onaru6:disabled  {
+  background: #111 !important;
+}

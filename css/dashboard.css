@@ -1,0 +1,17 @@
+div#dashboard div#dashboard-content div.dashboard-item-content,
+div#dashboard div#dashboard-content div.dashboard-item-content *,
+div#dashboard div#dashboard-content div.dashboard-item-header h3,
+div#dashboard div#dashboard-content div.dashboard-item-header div.gadget-menu,
+div#dashboard div#dashboard-content div.dashboard-item-header div.gadget-menu *,
+div#dashboard div#dashboard-content div.aui-group.count-pagination,
+div#dashboard div#dashboard-content div.aui-group.count-pagination *,
+div#dashboard div#dashboard-content table * {
+  background: #070707 !important;
+  color: #fff !important;
+}
+
+div.dashboard-shim {
+  background: #000;
+  opacity: 0.75 !important;
+  /** @TODO Blur? */
+}

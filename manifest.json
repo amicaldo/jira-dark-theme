@@ -1,0 +1,33 @@
+{
+    "manifest_version": 2,
+    "name": "Jira amc dark",
+    "version": "1.0",
+    "description": "Dark theme for Jira powered by amicaldo",
+    "icons": {
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+    {
+        "run_at": "document_start",
+        "matches": [
+            "https://*.atlassian.net/*"
+        ],
+        "exclude_matches": [
+            "https://*.atlassian.net/wiki/*"
+        ],
+        "css": [
+            "css/sidemenu.css",
+            "css/sidemenu-logo.css",
+            "css/content.css",
+            "css/switcher.css",
+            "css/search.css",
+            "css/gadget.css",
+            "css/board.css",
+            "css/dashboard.css",
+            "css/kanban-board.css"
+        ]
+    }
+  ]
+}
