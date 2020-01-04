@@ -3,7 +3,7 @@ div[data-testid="GlobalNavigation"] section,
 div[data-testid="GlobalNavigation"] button,
 div[data-testid="GlobalNavigation"] span:not([role="img"]),
 div[data-testid="GlobalNavigation"] a {
-  background: #000 !important;
+  background: var(--amc-darkest) !important;
   color: #fff !important;
 }
 
@@ -11,14 +11,14 @@ div[data-testid="GlobalNavigation"] a {
  * Help icon
  */
 div[data-testid="GlobalNavigation"] span[aria-label="Help"] svg {
-  color: #000 !important;
+  color: var(--amc-darkest) !important;
 }
 
 div[data-testid="ContextualNavigation"] div,
 div[data-testid="ContextualNavigation"] section,
 div[data-testid="ContextualNavigation"] button,
 div[data-testid="ContextualNavigation"] a {
-  background: #070707 !important;
+  background: var(--amc-darker) !important;
   color: #fff !important;
 }
 
@@ -26,14 +26,14 @@ div[data-testid="ContextualNavigation"] a {
  * Back icon
  */
 div[data-testid="ContextualNavigation"] button[data-testid="NavigationItem"] svg {
-  color: #070707 !important;
+  color: var(--amc-darker) !important;
 }
 
 /**
  * Forward icon on hover
  */
 div[data-testid="ContextualNavigation"] a[data-testid="NavigationItem"] div:nth-child(3) span svg {
-  color: #070707 !important;
+  color: var(--amc-darker) !important;
 }
 
 /**
@@ -48,5 +48,5 @@ button.ak-navigation-resize-button {
  * Remove weird white stripe at the bottom
  */
 div[data-testid="ContextualNavigation"] > div:first-child > div:first-child > div:nth-child(2) > div:first-child > div:first-child::after {
-  background: #070707 !important;
+  background: var(--amc-darker) !important;
 }

@@ -18,6 +18,7 @@
             "https://*.atlassian.net/wiki/*"
         ],
         "css": [
+            "css/theme.css",
             "css/sidemenu.css",
             "css/sidemenu-logo.css",
             "css/create-issue-dialog.css",

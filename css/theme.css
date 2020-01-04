@@ -1,0 +1,9 @@
+:root {
+  --amc-darkest: #000;
+  --amc-darker: #070707;
+  --amc-dark: #111;
+
+  --amc-dark-grey: #171717;
+
+  --amc-blur-background: rgba(17, 17, 17, 0.3); 
+}

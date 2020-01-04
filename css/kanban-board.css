@@ -1,12 +1,12 @@
 div#content div#ghx-pool ul.ghx-columns * {
-  background: #070707 !important;
+  background: var(--amc-darker) !important;
 }
 
 div#content div#ghx-pool div.ghx-issue,
 div#content div#ghx-pool div.ghx-issue * {
-  background: #111 !important;
+  background: var(--amc-dark) !important;
 }
 
 div#content div#ghx-pool ul#ghx-column-headers * {
-  background: #070707 !important;
+  background: var(--amc-darker) !important;
 }

@@ -1,6 +1,6 @@
 div.atlaskit-portal-container > div:nth-child(2) > div:first-child > div:first-child,
 div.aui-blanket {
-  background: rgba(17, 17, 17, 0.3) !important;
+  background: var(--amc-blur-background) !important;
   opacity: 1 !important;
   backdrop-filter: blur(5px) !important;
 }

@@ -1,4 +1,4 @@
 div.gadget {
-  background: #070707;
+  background: var(--amc-darker);
   color: #fff;
 }
