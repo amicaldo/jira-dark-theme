@@ -47,6 +47,6 @@ button.ak-navigation-resize-button {
 /**
  * Remove weird white stripe at the bottom
  */
-div[data-testid="ContextualNavigation"] div:nth-child(2) div:first-child div:nth-child(2) div:first-child div:first-child::after {
-  background: #111 !important;
+div[data-testid="ContextualNavigation"] > div:first-child > div:first-child > div:nth-child(2) > div:first-child > div:first-child::after {
+  background: #070707 !important;
 }
