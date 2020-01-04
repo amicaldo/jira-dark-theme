@@ -20,6 +20,7 @@
         "css": [
             "css/sidemenu.css",
             "css/sidemenu-logo.css",
+            "css/create-issue-dialog.css",
             "css/content.css",
             "css/switcher.css",
             "css/search.css",

@@ -1,0 +1,49 @@
+/**
+ * Header
+ */
+div#create-issue-dialog div.jira-dialog-heading {
+  background: #070707;
+  color: #fff;
+}
+
+div#create-issue-dialog button {
+  background: #070707;
+  color: #fff;
+}
+
+div#create-issue-dialog h2 {
+  color: #fff;
+}
+
+
+/**
+ * Content
+ */
+div#create-issue-dialog div.jira-dialog-content div.form-body {
+  background: #111;
+}
+
+div#create-issue-dialog div.jira-dialog-content input,
+div#create-issue-dialog div.jira-dialog-content a,
+div#create-issue-dialog div.jira-dialog-content div.wiki-edit-toolbar,
+div#create-issue-dialog div.jira-dialog-content div.wiki-edit-toolbar *,
+div#create-issue-dialog div.jira-dialog-content textarea {
+  background: #171717 !important;
+  color: #fff !important;
+}
+
+div#create-issue-dialog div.jira-dialog-content div.description {
+  color: #ccc;
+}
+
+div#create-issue-dialog div.jira-dialog-content label,
+div#create-issue-dialog div.jira-dialog-content span {
+  color: #fff;
+}
+
+/**
+ * Footer
+ */
+div#create-issue-dialog div.form-footer {
+  background: #070707;
+}
