@@ -4,7 +4,7 @@ div#content div#ghx-pool ul.ghx-columns * {
 
 div#content div#ghx-pool div.ghx-issue,
 div#content div#ghx-pool div.ghx-issue * {
-  background: var(--amc-dark) !important;
+  background: var(--amc-dark-grey) !important;
 }
 
 div#content div#ghx-pool ul#ghx-column-headers * {

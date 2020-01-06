@@ -1,13 +1,13 @@
 body, html {
-  background: var(--amc-dark) !important;
+  background: var(--amc-dark-grey) !important;
 }
 
 html body div#jira-frontend {
-  background: var(--amc-dark) !important;
+  background: var(--amc-dark-grey) !important;
 }
 
 div#content {
-  background: var(--amc-dark) !important;
+  background: var(--amc-dark-grey) !important;
   color: #fff !important;
 }
 
@@ -15,6 +15,9 @@ div#content div:not(.image):not(.overlay):not(.ellipsed-text):not(.top-row):not(
 div#content section,
 div#content header,
 div#content p,
+div#content time,
+div#content dt,
+div#content strong,
 div#content a,
 div#content li,
 div#content span:not([role="img"]),
@@ -25,12 +28,16 @@ div#content h4,
 div#content h5,
 div#content h6,
 div#content button {
-  background: var(--amc-dark) !important;
+  background: var(--amc-dark-grey) !important;
   color: #fff !important;
 }
 
+div#content strong {
+  font-weight: bold !important;
+}
+
 div[data-testid="Content"] {
-  background: var(--amc-dark) !important;
+  background: var(--amc-dark-grey) !important;
   color: #fff !important;
 }
 
@@ -49,7 +56,7 @@ div[data-testid="Content"] h5,
 div[data-testid="Content"] h6,
 div[data-testid="Content"] a,
 div[data-testid="Content"] button {
-  background: var(--amc-dark) !important;
+  background: var(--amc-dark-grey) !important;
   color: #fff !important;
 }
 
@@ -59,5 +66,5 @@ div[data-testid="Content"] button {
 div[data-testid="Content"] div button.css-1onaru6:not(:active),
 div[data-testid="Content"] div button.css-1onaru6:hover:not(.active),
 div[data-testid="Content"] div .css-1onaru6:disabled  {
-  background: var(--amc-dark) !important;
+  background: var(--amc-dark-grey) !important;
 }

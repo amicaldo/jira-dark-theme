@@ -20,7 +20,7 @@ div#create-issue-dialog h2 {
  * Content
  */
 div#create-issue-dialog div.jira-dialog-content div.form-body {
-  background: var(--amc-dark);
+  background: var(--amc-dark-grey);
 }
 
 div#create-issue-dialog div.jira-dialog-content input,
@@ -45,5 +45,5 @@ div#create-issue-dialog div.jira-dialog-content span {
  * Footer
  */
 div#create-issue-dialog div.form-footer {
-  background: var(--amc-darker);
+  background: var(--amc-dark);
 }

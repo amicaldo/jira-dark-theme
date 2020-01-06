@@ -8,6 +8,13 @@ div[data-testid="GlobalNavigation"] a {
 }
 
 /**
+ * Icons
+ */
+span > svg {
+  color: #fff !important;
+}
+
+/**
  * Help icon
  */
 div[data-testid="GlobalNavigation"] span[aria-label="Help"] svg {
@@ -25,14 +32,14 @@ div[data-testid="ContextualNavigation"] a {
 /**
  * Back icon
  */
-div[data-testid="ContextualNavigation"] button[data-testid="NavigationItem"] svg {
+div[data-testid="ContextualNavigation"] button:first-child svg {
   color: var(--amc-darker) !important;
 }
 
 /**
  * Forward icon on hover
  */
-div[data-testid="ContextualNavigation"] a[data-testid="NavigationItem"] div:nth-child(3) span svg {
+div[data-testid="ContextualNavigation"] a[data-testid="NavigationItem"] > div:nth-child(3) > span > svg {
   color: var(--amc-darker) !important;
 }
 
